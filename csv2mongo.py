@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# usage> csv2mongo --db DB --collection COLLECTION -u USER -p PASSWORD --host HOST[:port] --index="0,1,2,3" FILENAME1.csv
+# usage> csv2mongo --db DB --collection COLLECTION -u USER -p PASSWORD --host HOST:port --index="0:,1,2,3" FILENAME1.csv
 
 import csv
 import pymongo
